@@ -8,10 +8,11 @@ export default function Inicio() {
 
       <Text style={styles.titulo}>App Ambiental 🌱</Text>
 
+      
       {/* CARD HOME */}
       <Link href="/home" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="home" size={40} color="#2E7D32" />
+          <MaterialIcons name="home" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Home</Text>
           <Text style={styles.cardText}>
             Página principal do aplicativo
@@ -22,7 +23,7 @@ export default function Inicio() {
       {/* CARD PARCERIAS */}
       <Link href="/parcerias" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="groups" size={40} color="#2E7D32" />
+          <MaterialIcons name="groups" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Parcerias</Text>
           <Text style={styles.cardText}>
             Empresas e organizações parceiras
@@ -33,7 +34,7 @@ export default function Inicio() {
       {/* CARD RELATÓRIOS */}
       <Link href="/relatorio" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="assessment" size={40} color="#2E7D32" />
+          <MaterialIcons name="assessment" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Relatórios</Text>
           <Text style={styles.cardText}>
             Visualizar relatórios ambientais
@@ -44,7 +45,7 @@ export default function Inicio() {
       {/* CARD SUGESTÕES */}
       <Link href="/sugestoes" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="lightbulb" size={40} color="#2E7D32" />
+          <MaterialIcons name="lightbulb" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Sugestões</Text>
           <Text style={styles.cardText}>
             Envie ideias para melhorar o ambiente
@@ -55,7 +56,7 @@ export default function Inicio() {
       {/* CARD PERFIL */}
       <Link href="/perfil" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="person" size={40} color="#2E7D32" />
+          <MaterialIcons name="person" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Perfil</Text>
           <Text style={styles.cardText}>
             Informações do usuário
@@ -66,7 +67,7 @@ export default function Inicio() {
       {/* CARD FORMULÁRIO */}
       <Link href="/formulario" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="description" size={40} color="#2E7D32" />
+          <MaterialIcons name="description" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Formulário</Text>
           <Text style={styles.cardText}>
             Envio de dados ambientais
@@ -77,7 +78,7 @@ export default function Inicio() {
       {/* CARD CASOS */}
       <Link href="/cases" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="eco" size={40} color="#2E7D32" />
+          <MaterialIcons name="eco" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Casos de Sucesso</Text>
           <Text style={styles.cardText}>
             Projetos ambientais realizados
@@ -88,7 +89,7 @@ export default function Inicio() {
       {/* CARD SOBRE */}
       <Link href="/sobre" asChild>
         <Pressable style={styles.card}>
-          <MaterialIcons name="info" size={40} color="#2E7D32" />
+          <MaterialIcons name="info" size={50} color="#2E7D32" />
           <Text style={styles.cardTitle}>Sobre</Text>
           <Text style={styles.cardText}>
             Informações sobre o projeto
@@ -103,22 +104,22 @@ export default function Inicio() {
 const styles = StyleSheet.create({
 
   container: {
-    flexGrow: 1,
-    backgroundColor: "#E8F5E9",
+    flex: 1,
+    backgroundColor: "#d8dad8ff",
     alignItems: "center",
     padding: 20
   },
 
   titulo: {
-    fontSize: 28,
+    fontSize: 40,
     fontWeight: "bold",
     marginBottom: 30,
     color: "#1B5E20"
   },
 
   card: {
-    width: "90%",
-    backgroundColor: "#FFFFFF",
+    width: "40%",
+    backgroundColor: "#D1E8C1",
     padding: 20,
     borderRadius: 15,
     marginBottom: 20,
