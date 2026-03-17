@@ -107,24 +107,25 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#d8dad8ff",
     alignItems: "center",
-    padding: 20
+    padding: 20,
+    gap: 10,
+    
   },
 
   titulo: {
-    fontSize: 40,
+    fontSize: 46,
     fontWeight: "bold",
     marginBottom: 30,
     color: "#1B5E20"
   },
 
   card: {
-    width: "40%",
+    width: "60%",
     backgroundColor: "#D1E8C1",
     padding: 20,
     borderRadius: 15,
     marginBottom: 20,
     alignItems: "center",
-
     shadowColor: "#000",
     shadowOpacity: 0.2,
     shadowOffset: { width: 0, height: 3 },
@@ -134,16 +135,17 @@ const styles = StyleSheet.create({
   },
 
   cardTitle: {
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: "bold",
-    marginTop: 10
+    marginTop: 10,
+    
   },
 
   cardText: {
-    fontSize: 14,
-    textAlign: "center",
+    fontSize: 18,
+    textAlign: "auto",
     marginTop: 5,
-    color: "#555"
+    color: "#555",
   }
 
 });
